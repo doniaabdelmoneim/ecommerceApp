@@ -6,7 +6,6 @@ import cors from "cors"
 // Init app function to create Express server and connect to MongoDB database 
 
 export const initApp = (app, express) => {
-  //connect to db
   app.use(cors())
   app.use(express.json());
 
