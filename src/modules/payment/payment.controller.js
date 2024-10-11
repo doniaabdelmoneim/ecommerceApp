@@ -62,7 +62,7 @@ export const createCheckoutSession = async (req, res, next) => {
   
 		  return {
 			price_data: {
-			  currency: "LE",
+			  currency: "usd",
 			  product: stripeProduct.id, // Use the Stripe product ID
 			  unit_amount: amount,
 			},
